@@ -74,7 +74,8 @@ public class User {
 			return false;
 		return true;
 	}
-
+//This is where the string updates is going on
+	//and this update has been done by Yeshiwondem Sabore
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", address=" + address
