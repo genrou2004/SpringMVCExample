@@ -20,6 +20,7 @@ public class UserServiceImpl implements UserService{
 		users= populateDummyUsers();
 	}
 
+	//public List<User> findAllUsers() {
 	public List<User> findAllUsers() {
 		return users;
 	}
