@@ -21,6 +21,7 @@ public class HelloWorldConfiguration extends WebMvcConfigurerAdapter{
 		//viewResolver.setViewClass(JstlView.class);
 		viewResolver.setPrefix("/WEB-INF/views/");
 		viewResolver.setSuffix(".jsp");
+		//registry.viewResolver(viewResolver);
 		registry.viewResolver(viewResolver);
 	}
 
